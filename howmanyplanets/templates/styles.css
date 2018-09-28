@@ -1,0 +1,86 @@
+html {
+    width: 100%;
+}
+
+body {
+    min-width: 600px;
+    max-width: 900px;
+    width: 75%;
+    margin: auto;
+    font-family: Lato;
+    color: #eeeeee;
+    background-color: black;
+}
+
+h1 {
+    margin: 1em 0 0.5em 0;
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.content {
+    margin: 1.5em;
+}
+
+.keptxt, .kepstat sup {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.kepstat {
+    font-family: Lato;
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: -0.7em;
+    padding-bottom: -0.7em;
+}
+
+.footer {
+    margin: 1.5em;
+    margin-top: 2.5em;
+    font-family: Lato;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.footer p {
+    margin-block-start: 0.35em;
+    margin-block-end: 0.35em;
+}
+
+.footer a {
+    color: #eeeeee;
+}
+
+.footnote {
+    font-weight: 300;
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
+.bk-root .bk-widget-box {
+    padding: 0px;
+}
+
+.bk-root .bk-layout-fixed {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3px;
+}
+
+.bk-root .bk-layout-fixed .kepbr {
+    padding-top: 1.4em;
+}
+
+.kepwidgets {
+    margin-right: 3em;
+}
+
+.bk-root .bk-layout-fixed .period-slider, .bk-root .bk-layout-fixed .radius-slider {
+    width: 200px;
+    padding-bottom: 10px;
+}

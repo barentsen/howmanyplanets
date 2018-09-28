@@ -1,0 +1,38 @@
+{% extends base %}
+
+{% block title %}How many planets has Kepler discovered?{% endblock %}
+
+{% block postamble %}
+  <style>
+    {% include 'styles.css' %}
+  </style>
+{% endblock %}
+
+{% block contents %}
+  <div class="content">
+    <h1>How many planets has Kepler discovered?</h1>
+
+    {{ super() }}
+
+  </div>
+
+  <div class="footer">
+    <p>
+        <sup>*</sup> New planets continue to be discovered every month. Four additional planets <a href="2014A&A...570A.130S">have been found indirectly</a> using the phase curve method. We do not include them here because their radius has not been measured yet.
+        Credit NexSci.
+    </p>
+    <p>
+        <sup>†</sup> This number is the best-available estimate determined by the SAG13 working group of NASA's Exoplanet Exploration Program Analysis Group.
+        It will take several years of additional years for the precise number and its uncertainty to be understood.
+    </p>
+
+    <p>
+        <sup>‡</sup>This number assumes the presence of 20 billion Sun-like stars in our Galaxy.
+    </p>
+    <p>
+        Last update: XXX.
+    </p>
+
+  </div>
+
+{% endblock %}
